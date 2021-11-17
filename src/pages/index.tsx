@@ -11,6 +11,12 @@ const Home: NextPage = () => {
     <Flex m="1rem">
       <Pagination />
     </Flex>
+    <Flex m="1rem">
+      <Heading>React Button - Nova janela</Heading>
+    </Flex>
+    <Flex m="1rem">
+      <button type="button" onClick={() => window.open("/")}>Teste</button>
+    </Flex>
     </>
   )
 }
